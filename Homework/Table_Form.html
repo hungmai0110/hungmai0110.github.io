@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form đăng kí</title>
+  </head>
+  <body>
+    <form>
+      <table width="400" border="2" align="center">
+        <thead>
+          <th colspan="2">ĐĂNG KÍ</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Full name</td>
+            <td>
+              <input type="text" placeholder="Nhập fullname" size="30" />
+            </td>
+          </tr>
+          <tr>
+            <td>Username</td>
+            <td>
+              <input type="text" placeholder="Nhập tên" size="30" />
+            </td>
+          </tr>
+          <tr>
+            <td>Password</td>
+            <td>
+              <input type="text" placeholder="Nhập mật khẩu" size="30" />
+            </td>
+          </tr>
+          <tr>
+            <td>Nhập lại Passsword</td>
+            <td>
+              <input type="text" placeholder="Nhập lại mật khẩu" size="30" />
+            </td>
+          </tr>
+          <tr>
+            <td>Giới tính</td>
+            <td>
+              <label>
+                <input type="radio" name="Giới tính" id="Nam" />Nam
+              </label>
+
+              <label> <input type="radio" name="Giới tính" id="Nữ" />Nữ </label>
+            </td>
+          </tr>
+          <tr>
+            <td>Ngày sinh</td>
+            <td>
+              <select name="day">
+                <option>ngày 1</option>
+                <option>ngày 2</option>
+                <option>ngày 3</option>
+              </select>
+              <select name="month">
+                <option>Tháng 1</option>
+                <option>Tháng 2</option>
+                <option>Tháng 3</option>
+              </select>
+              <select name="year">
+                <option>Năm 2015</option>
+                <option>Năm 2016</option>
+                <option>Năm 2017</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Địa chỉ</td>
+            <td>
+              <textarea></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td>Avatar</td>
+            <td>
+              <input type="file" name="Avartar" />
+            </td>
+          </tr>
+          <tr>
+            <td>Sở thích</td>
+            <td>
+              <label> <input type="checkbox" name="Xem Phim" />Xem Phim </label>
+              <label> <input type="checkbox" name="Thể Thao" />Thể Thao </label>
+              <label> <input type="checkbox" name="Web" />Web </label>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2"align="center">
+                <input type="reset" name="Reset">
+                <input type="submit" name="OK">
+
+            </td>
+            
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </body>
+</html>

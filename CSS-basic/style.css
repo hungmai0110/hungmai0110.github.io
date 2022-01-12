@@ -1,0 +1,13 @@
+h3#heading{
+    color: rgb(222, 135, 135);
+    background-color: black;
+}
+#heading{
+    color: black;
+    background-color: blanchedalmond;
+
+}
+.heading{
+    color: chartreuse;
+    background-color: coral;
+}

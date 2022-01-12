@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <style>
+      table,
+      tr,
+      td,
+      th {
+        border: 1px solid black;
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>level1</th>
+          <th>level2</th>
+          <th>level3</th>
+          <th>Info</th>
+          <th>name</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="6">System</td>
+          <td rowspan="4">system apps</td>
+          <td rowspan="3">systemEnv</td>
+          <td>App Test</td>
+          <td>foo</td>
+        </tr>
+        <tr>
+          <td>App Test</td>
+          <td>foo</td>
+        </tr>
+        <tr>
+          <td>App Memory</td>
+          <td>bar</td>
+        </tr>
+        <tr>
+          <td>systemEnv2</td>
+          <td>App Test</td>
+          <td>bar</td>
+        </tr>
+        <tr>
+          <td rowspan="2">system Memory</td>
+          <td rowspan="2">Memory Test</td>
+          <td>Memory Fune</td>
+          <td>foo</td>
+        </tr>
+        <tr>
+          <td>App Test</td>
+          <td>foo</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

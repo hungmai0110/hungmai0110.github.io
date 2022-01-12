@@ -1,0 +1,19 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+h2{
+    color: #464646;
+    font-size: 19px;
+}
+.description, .rating{
+    color: #757575;
+    font-size: 14px
+    font-weight: 100
+}
+.rating i {
+    color: #ffd600;
+}
+.price {
+  color: #f65623;
+  font-size: 19px;
+}
