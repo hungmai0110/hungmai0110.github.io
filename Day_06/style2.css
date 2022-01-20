@@ -1,0 +1,26 @@
+
+.box {
+    width:200px ;
+    height: 200px;
+    background-color: black;
+    transition: all 1s ease-out;
+
+}
+
+    
+.box:hover{
+    width: 400px;
+    height: 400px;
+    transition: translate(40px) rotate(45deg);
+ 
+}
+
+.box p{
+    color:#fff;
+    transform: translateY(250px);
+    transition: all 1s ease-out;
+
+}
+.box:hover p{
+    transform: translateY(0);
+}

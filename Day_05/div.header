@@ -1,0 +1,10 @@
+div.header
+   div.logo
+       img
+    div.side-bar
+      div.menu
+      div.cart
+          span.icon
+          span.cart-number
+      div.avatar
+         .img   

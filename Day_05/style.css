@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    height: 2000px;
+
+}
+.parent {
+    width: 1000px;
+    height: 500px;
+    background-color: tomato;
+    margin: 100px;
+    position: relative;
+    
+
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+/* Giữ nguyên vị trị phần tử trong luồng hiển thị */
+    position: relative;
+    top: 50px;
+    left: 50px;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
+
+.box-1{
+    background-color: yellow;
+}
+.box-2{
+    background-color: yellowgreen;
+    /* Z-index phải có thuộc tính positon và z-index càng cao càng ưu tiên hiển thị */
+    z-index: 2;
+}
+.box-3{
+    background-color: violet;
+}
+
+button {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    padding: 30px;
+
+}
+.menu {
+    height: 100px;
+    background-color: violet;
+    position: sticky;
+    top: 30px;
+}
