@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul li {
+  list-style: none;
+  color: #252a2b;
+}
+
+h3 {
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.container {
+  color: #252a2b;
+  padding: 10px 40px;
+  width: 1250px;
+  margin: auto;
+}
+
+/* CSS header */
+#header {
+  background-color: #f7fdfe;
+}
+
+#header .container {
+  display: flex;
+  align-items: center;
+}
+
+#header .list a:hover {
+  color: blue;
+}
+.logo {
+  padding-left: 20px;
+  flex: 0 0 50%;
+  font-family: "Mochiy Pop P One", sans-serif;
+}
+
+.logo h6 {
+  margin-left: 33px;
+}
+
+.list {
+  flex: 0 0 50%;
+  justify-content: flex-end;
+}
+
+.list ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.list ul li {
+  padding: 6px 15px;
+}
+.list ul a {
+  color: #252a2b;
+}
+.contact {
+  background-color: red;
+  border-radius: 30px;
+  margin-left: 40px;
+  margin-right: 20px;
+}
+
+.phone p {
+  color: white;
+}
+
+/* Animation .phone */
+.phone {
+  animation: animation 1.5s infinite ;
+  display: inline-block;
+}
+
+@keyframes animation {
+  0% {
+    transform: scale(0.9);
+  }
+  33% {
+    transform: scale(0.95);
+  }
+  66% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+/* CSS banner */
+#banner a img {
+  width: 100%;
+  margin-top: 15px;
+}
+
+/* CSS product */
+.card-list {
+  margin-top: 20px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.card-item {
+  width: 260px;
+  margin-bottom: 30px;
+}
+
+.card-item:hover {
+  border: 2px solid black;
+}
+#product .container img {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+.card-infor {
+  text-align: center;
+  margin-top: 15px;
+}
+/* CSS footer */
+#footer {
+  background-color: #f2f2f2;
+  line-height: 40px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.policy a {
+  color: #252a2b;
+}
+
+.media {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact_all .media i {
+  color: #252a2b;
+  font-size: 30px;
+}
