@@ -1,0 +1,79 @@
+* {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+}
+
+body {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+}
+
+.card {
+        background-color: #fff;
+        color: #464646;
+        /* tìm hiểu box-shadow */
+        box-shadow: 0 4px 4px rgb(0 0 0 / 15%);
+        display: block;
+        width: 400px;
+        margin: 0 auto;
+        
+}
+
+.year {
+        color: #fff;
+        background-color: #ef5321;
+        text-align: center;
+        padding: 3px 0;
+        font-weight: 300;
+        border-top-left-radius: 4px;
+      
+}
+
+.time {
+        color: #fff;
+        background-color: #fe6d3f;
+        height: 100px;
+        text-align: center;
+        font-weight: 300;
+        border-bottom-left-radius: 4px;
+}
+
+a {
+        color: #464646;
+        text-decoration: none;
+        padding: 16px 24px 0px 24px;
+        font-size: 21px;
+        display: block;
+}
+
+.teacher {
+        padding: 0px 24px 0px 24px; 
+        font-size: 14px;
+}
+
+.day {
+        padding: 8px 24px 0px 24px;
+        font-size: 14px;
+}
+
+.timelearn {
+        padding: 8px 24px 0px 24px;
+        font-size: 14px;
+}
+
+.location {
+        padding: 8px 24px 0px 24px;
+        border-bottom: 0.5px solid #c4c4c4e3;
+        font-size: 14px;
+}
+button {
+        font-weight: 300;
+        color: blue;
+        font-size: 16px;
+        border: none;
+        background-color: #fff;
+        padding: 14px 0 10px 24px;
+        
+}
