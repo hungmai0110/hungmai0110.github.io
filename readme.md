@@ -57,5 +57,37 @@ let age = 35;
 const number = 100;
 ```
 
+### Quy tắc đặt tên biến
 
+-  Chứa các ký tự **chữ**, **số**, **_** và **$**
+-  Ký tự đầu tiên không được là số (nên là chữ)
+-  Có phân biệt hoa thường
+-  Không trùng với các từ khóa của Javascript như: **for**, **while**, **this**, …
+-  Nên đặt tên theo kiểu **camelCase** nếu tên biến có độ dài 2 từ trở lên cho dễ đọc. Ví
+dụ binhphuong thì nên đặt là binhPhuong.
+
+### Kiểm tra kiểu dữ liệu của biến
+
+Để kiểm tra kiểu dữ kiệu của 1 biến, chúng ta sử dụng toán tử **typeof**
+
+```javascript
+let number = 10;
+console.log(typeof number); // "number"
+
+let name = "Bùi Hiên";
+console.log(typeof name); // "string"
+```
+## 3. Một số kiểu dữ liệu trong Javascript
+
+### 1. Kiểu dữ liệu `undefined`
+
+Dùng để biểu thị trạng thái biến **chưa gán giá trị**.
+
+### 2. Kiểu dữ liệu `boolean`
+
+Dùng để biểu thị hai giá trị `true` và `false` nghĩa là **đúng** và **sai**.
+
+### 3. Kiểu dữ liệu `null`
+
+Dùng để biểu thị trạng thái **không biết giá trị**.
 
