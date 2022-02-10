@@ -79,15 +79,15 @@ console.log(typeof name); // "string"
 ```
 ## 3. Một số kiểu dữ liệu trong Javascript
 
-### 1. Kiểu dữ liệu `undefined`
+1. ### Kiểu dữ liệu `undefined`
 
 Dùng để biểu thị trạng thái biến **chưa gán giá trị**.
 
-### 2. Kiểu dữ liệu `boolean`
+2. ### Kiểu dữ liệu `boolean`
 
 Dùng để biểu thị hai giá trị `true` và `false` nghĩa là **đúng** và **sai**.
 
-### 3. Kiểu dữ liệu `null`
+3. ### Kiểu dữ liệu `null`
 
 Dùng để biểu thị trạng thái **không biết giá trị**.
 
