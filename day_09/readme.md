@@ -220,7 +220,7 @@ let name = ‘John’;
 
 > Nếu trong dấu **``** thì chỉ thực hiện phép tính trong dấu **$**, còn lại giữ nguyên
 
-## 6. Math object trong Javasript
+## 5. Math object trong Javasript
 
 ### Một số phương thức hay được sử dụng
 
