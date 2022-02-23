@@ -67,10 +67,3 @@ function repeatStr(string){
 }
 
 console.log(repeatStr("a"));
-
-
-let numbers1 = [5, 3, 6, 1, 2];
-numbers1.sort(function (a, b) {
-    return b - a;
-});
-console.log(numbers1);
