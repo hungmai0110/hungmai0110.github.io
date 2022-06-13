@@ -27,5 +27,5 @@ document.body.insertAdjacentElement("afterbegin", counter);
 counter.innerText = `Số từ có trong đoạn văn là: ${Words.length}`;
 
 // Câu 4: Thay thế các ký hiệu ? => 🤔, ! => 😲
-para.innerText = para.innerText.replace(/\!/g, "😲");
-para.innerText = para.innerText.replace(/\?/g, "🤔");
+para.innerHTML = para.innerHTML.replace(/\!/g, "😲");
+para.innerHTML = para.innerHTML.replace(/\?/g, "🤔");
