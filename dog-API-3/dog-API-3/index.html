@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dog API (3)</title>
+    <style>
+      img {
+        max-width: 100%;
+        display: block;
+        margin: auto;
+      }
+      .image {
+        width: 100%;
+        height: 300px;
+        border: 1px solid #fff;
+      }
+      .image img {
+        width: 100%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Breeds List</h1>
+
+    <div>
+      <select id="list"></select>
+      <button class="btn-random">Get Sub Breed</button>
+    </div>
+
+    <h1>Sub Breeds List</h1>
+
+    <ul class="sublist"></ul>
+
+    <div class="image">
+      <img src="" alt="" />
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
